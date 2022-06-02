@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSASProje61</Database>
+    <Server>DESKTOP-V1BQ8SD\SEVVAL</Server>
+    <ConnectionString>Data Source=DESKTOP-V1BQ8SD\SEVVAL;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>aX+YjmbXUxW9jwqUcTOd3t81mcg=26.05.2021 03:21:4426.05.2021 03:21:44</TimeStamp>
+        <ID>
+          <String>ORDERS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>KqPCNrBsBsuZwo6O0KfR4ZuYDoE=26.05.2021 16:49:3326.05.2021 03:22:41</TimeStamp>
+        <ID>
+          <String>ORDERS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BghAAO9UEEhi6qZbzSuKH5E2E4I=26.05.2021 03:27:4526.05.2021 03:27:44</TimeStamp>
+        <ID>
+          <String>Listof Orders</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PYxbvBuul5BE1gFlq6H7pfmbL8Q=26.05.2021 03:28:4426.05.2021 03:28:44</TimeStamp>
+        <ID>
+          <String>Order Details</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>7DIukHTELxTeQNnkrrF3Ud8UG5Y=26.05.2021 03:32:4626.05.2021 03:32:46AizT1G0ndpieefOKwHCgC7pk4ps=26.05.2021 03:32:4626.05.2021 03:32:46</TimeStamp>
+        <ID>
+          <String>ORDERS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>3gARqgSC+g46wHrHeBbIQtFoRwA=26.05.2021 17:44:1426.05.2021 04:05:27</TimeStamp>
+        <ID>
+          <String>Order Details_MS</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>F91s8YR26qhv+RUJNLP1S2PKc0g=26.05.2021 03:19:4426.05.2021 03:19:44</TimeStamp>
+      <ID>
+        <String>SSASProje61</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-05-26T16:11:36.63Z</LastDeployed>
+</DeploymentSnapshot>
